@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="servicetester.test.DataDriverTest">
+        <methods>
+          <include name="afterSuite"/>
+          <include name="afterMethod"/>
+          <include name="afterTest"/>
+          <include name="soaprequest_response_statuscode_validation"/>
+          <include name="soaprequest_response_compare_validation"/>
+          <include name="beforeMethod"/>
+          <include name="soaprequest_response_with_ignore_nodes_validation"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- servicetester.test.DataDriverTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
